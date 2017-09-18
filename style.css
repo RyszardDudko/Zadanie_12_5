@@ -1,0 +1,57 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: gray;
+	text-align: center;
+	font-family: 'Open+Sans+Condensed:300', serif;
+	box-sizing: border-box;
+	color: black;
+}
+
+h1 {
+	padding-top: 50px;
+	text-transform: uppercase;
+	margin: 30px auto;
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.box {
+	line-height: 50px;
+}
+
+.tweet {
+	padding-bottom: 8px;
+	text-decoration: none;
+	color: #fff;
+	background: #11bdf7;
+	font-size: 31px;
+	cursor: pointer;
+	margin-top: 200px;
+}
+
+.tweet:hover {
+	color: #1DA1F2;
+	background: #fff;
+}
+
+.trigger {
+	width: 160px;
+	height: 40px;
+	background: green;
+	color:black;
+	font-size: 18px; 
+	cursor: pointer;
+}
+
+.btn {
+	padding-top: 50px;
+}
